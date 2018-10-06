@@ -1,4 +1,4 @@
-from ..LoadInfo.PointLoad import *
+from .PointLoad import PointLoads
 
 class Beam:
     
