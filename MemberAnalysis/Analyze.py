@@ -1,3 +1,5 @@
+from .PointLoad import PointLoads
+
 class BeamAnalysis:
     def calcReactions(loadIntensity, a, length):
         rightReactions = 0

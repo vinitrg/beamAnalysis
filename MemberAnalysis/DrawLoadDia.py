@@ -2,8 +2,7 @@ import matplotlib.pyplot as plt
 
 class LoadingDiagram:
     def __init__(self,normalisedValue):
-        self.NormalisedValue = normalisedValue
-        
+        self.NormalisedValue = normalisedValue        
   
     def DrawBoundingBox(self,ax, beamLength,load):
         leftBoundLim = -1*beamLength*0.2
@@ -41,4 +40,3 @@ class LoadingDiagram:
             
             ax.arrow(x, y, dx, dy, head_width=1.0, head_length=arrowHeadLength, fc=color, ec=color)
             ax.text(text_x,text_y,str(load[loadIndex]))
-        
